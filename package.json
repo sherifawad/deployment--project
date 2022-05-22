@@ -1,5 +1,11 @@
-
 {
-    "scripts": {},
-    "devDependencies": {}
+	"scripts": {
+		"backend:install": "cd udagram-api && npm install",
+		"frontend:install": "cd udagram-frontend && npm install --legacy-peer-deps",
+		"backend:build": "cd udagram-api && npm run build",
+		"frontend:build": "cd udagram-frontend && NODE_OPTIONS=--openssl-legacy-provider npm run build",
+		"backend:deploy": "cd udagram-api && npm run deploy ",
+		"frontend:deploy": "cd udagram-frontend && npm run deploy"
+	},
+	"devDependencies": {}
 }
