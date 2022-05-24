@@ -5,6 +5,7 @@ This application is provided to you as an alternative starter project if you do 
 <img src="screenshots/application.png" alt="angular-logo"/>
 
 **App hosted in this** http://sherufudacitybucket.s3-website-us-east-1.amazonaws.com
+**Backend hosted in this** http://udagram-api-post.us-east-1.elasticbeanstalk.com/api/v0
 
 ## Getting Started
 
@@ -42,21 +43,8 @@ Provision the necessary AWS services needed for running the application:
 
 ## Testing
 
-This project contains two different test suite: unit tests and End-To-End tests(e2e). Follow these steps to run the tests.
-
 1. `cd starter/udagram-frontend`
 1. `npm run test`
-1. `npm run e2e`
-
-There are no Unit test on the back-end
-
-### Unit Tests:
-
-Unit tests are using the Jasmine Framework.
-
-### End to End Tests:
-
-The e2e tests are using Protractor and Jasmine.
 
 ## Built With
 
@@ -69,6 +57,7 @@ The e2e tests are using Protractor and Jasmine.
 ### CircleCI Fullstack
 
 <img src="screenshots/circle-ci.png" alt="complete"/>
+<img src="screenshots/CircleCli_Environment_Variables.png" alt="environment variables"/>
 
 ### S3
 

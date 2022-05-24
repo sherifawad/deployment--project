@@ -6,8 +6,9 @@
 	"scripts": {
 		"ng": "NODE_OPTIONS=--openssl-legacy-provider ng",
 		"start": "ng serve",
-		"build": "ng build --prod",
+		"build": "ng build cd--prod",
 		"deploy": "chmod +x bin/deploy.sh && bin/deploy.sh",
+		"test:ci": "ng test --no-watch --no-progress --browsers=ChromeHeadless",
 		"test": "ng test",
 		"lint": "ng lint",
 		"e2e": "ng e2e"

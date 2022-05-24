@@ -1,5 +1,7 @@
 # Structures
 
+<img src="../screenshots/architecture.png" alt="structure app"/>
+
 ### AWS (Amazon Web Services)
 
 Provide cloud computing and APIs services.
